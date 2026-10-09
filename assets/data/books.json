@@ -1,0 +1,83 @@
+
+{
+  "books": [
+    {
+      "id": 1,
+      "title": "আমার প্রিয় কবিতা",
+      "author": "আক্কাস",
+      "authorId": 1,
+      "description": "নির্বাচিত বাংলা কবিতার সংকলন।",
+      "category": "poem",
+      "cover": "assets/images/card1.jpg",
+      "pdf": "assets/pdfs/poetry.pdf",
+      "format": "pdf",
+      "featured": true,
+      "isPublished": true
+    },
+    {
+      "id": 2,
+      "title": "বাংলার কবিতা",
+      "author": "আক্কাস",
+      "authorId": 1,
+      "description": "বাংলা ও প্রকৃতির কবিতার সংকলন।",
+      "category": "poem",
+      "cover": "assets/images/card2.jpg",
+      "pdf": "assets/pdfs/poetry.pdf",
+      "format": "pdf",
+      "featured": true,
+      "isPublished": true
+    },
+    {
+      "id": 3,
+      "title": "আমার ছোট গল্প",
+      "author": "আক্কাস",
+      "authorId": 1,
+      "description": "ছোট গল্পের একটি সংকলন।",
+      "category": "story",
+      "cover": "assets/images/card3.jpg",
+      "pdf": "assets/pdfs/poetry.pdf",
+      "format": "pdf",
+      "featured": false,
+      "isPublished": true
+    },
+    {
+      "id": 4,
+      "title": "আমার প্রিয় কবিতা",
+      "author": "আক্কাস",
+      "authorId": 1,
+      "description": "নির্বাচিত বাংলা কবিতার সংকলন।",
+      "category": "poem",
+      "cover": "assets/images/card1.jpg",
+      "pdf": "assets/pdfs/poetry.pdf",
+      "format": "pdf",
+      "featured": true,
+      "isPublished": true
+    },
+    {
+      "id": 5,
+      "title": "বাংলার কবিতা",
+      "author": "আক্কাস",
+      "authorId": 1,
+      "description": "বাংলা ও প্রকৃতির কবিতার সংকলন।",
+      "category": "poem",
+      "cover": "assets/images/card2.jpg",
+      "pdf": "assets/pdfs/poetry.pdf",
+      "format": "pdf",
+      "featured": true,
+      "isPublished": true
+    },
+    {
+      "id": 6,
+      "title": "আমার ছোট গল্প",
+      "author": "আক্কাস",
+      "authorId": 1,
+      "description": "ছোট গল্পের একটি সংকলন।",
+      "category": "story",
+      "cover": "assets/images/card3.jpg",
+      "pdf": "assets/pdfs/poetry.pdf",
+      "format": "pdf",
+      "featured": false,
+      "isPublished": true
+    }
+  ]
+}

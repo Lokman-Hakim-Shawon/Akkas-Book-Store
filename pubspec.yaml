@@ -1,0 +1,49 @@
+name: akkas_app_store
+description: "A new Flutter project."
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.12.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+
+  # PDF Viewer
+  pdfx: ^2.11.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^6.0.0
+  flutter_launcher_icons: ^0.14.4
+
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    # - assets/banner.jpg
+    - assets/author/
+    - assets/cards/
+    - assets/lokman.png
+
+    # JSON Data
+    - assets/data/
+
+    # Images
+    - assets/images/
+
+    # PDF Books
+    - assets/pdfs/
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "assets/author/app_logo.png"

@@ -1,0 +1,12 @@
+
+{
+    "name": "আক্কাছ বুক স্টোর",
+    "description": "বাংলা কবিতা, গল্প ও বই পড়ার অ্যাপ",
+    "logo": "assets/images/logo.png",
+    "theme": {
+      "primaryColor": "#2E7D32",
+      "backgroundColor": "#F7F8F7",
+      "cardColor": "#FFFFFF",
+      "textColor": "#212121"
+    }
+  }

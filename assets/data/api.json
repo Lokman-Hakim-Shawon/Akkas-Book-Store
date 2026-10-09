@@ -1,0 +1,620 @@
+
+{
+  "status": true,
+  "message": "Akkas Book Store data loaded successfully",
+  "version": "1.0.0",
+
+  "data": {
+    "app": {
+      "id": 1,
+      "name": "Akkas Book Store",
+      "title": "আক্কাস বুক স্টোর",
+      "tagline": "আক্কাসের সাহিত্যভাণ্ডার",
+      "description": "লেখক আক্কাসের কবিতা, গল্প, উপন্যাস, প্রবন্ধ ও অন্যান্য সাহিত্যকর্ম পড়ার একটি ব্যক্তিগত অ্যাপ।",
+      "logo": "assets/images/logo.png",
+      "language": "bn",
+      "version": "1.0.0",
+      "theme": {
+        "primary_color": "#2E7D32",
+        "background_color": "#F7F8F7",
+        "card_color": "#FFFFFF",
+        "reading_background_color": "#E8E0D0"
+      }
+    },
+
+    "author": {
+      "id": 1,
+      "name": "আক্কাস",
+      "image": "assets/images/author.png",
+      "designation": "লেখক ও কবি",
+      "birthday": "০৩ মে ১৯৬৯",
+      "birthplace": "দক্ষিণ গোরাগাঁও, লেংগুরা, কলমাকান্দা",
+      "short_bio": "লেখক ও কবি আক্কাসের সাহিত্যকর্মের ডিজিটাল সংগ্রহ।",
+      "biography": "আক্কাস একজন লেখক ও কবি। তাঁর কবিতা, গল্প, উপন্যাস ও অন্যান্য সাহিত্যকর্ম পাঠকদের জন্য এই অ্যাপে সংরক্ষণ করা হয়েছে।",
+      "contact": {
+        "email": "",
+        "phone": "",
+        "facebook": "",
+        "youtube": "",
+        "website": ""
+      }
+    },
+
+    "banners": [
+      {
+        "id": 1,
+        "image": "assets/images/author1.png",
+        "category_id": 1
+      },
+      {
+        "id": 2,
+        "image": "assets/images/author2.png",
+        "category_id": null
+      },
+      {
+        "id": 3,
+        "image": "assets/images/author1.png",
+        "category_id": 1
+      },
+      {
+        "id": 4,
+        "image": "assets/images/author2.png",
+        "category_id": null
+      },
+      {
+        "id": 5,
+        "image": "assets/images/author1.png",
+        "category_id": 1
+      }
+    ],
+
+    "categories": [
+      {
+        "id": 1,
+        "name": "কবিতা",
+        "slug": "poetry",
+        "description": "আক্কাসের কবিতার সংগ্রহ।",
+        "icon": "Icons.auto_stories", 
+        "color": "Color(0xFFF3E9D6)"
+      },
+      {
+        "id": 2,
+        "name": "উপন্যাস",
+        "slug": "novel",
+        "description": "আক্কাসের উপন্যাসসমূহ।",
+        "icon": "Icons.menu_book", "color": "Color(0xFFE5EFE9)"
+      },
+      {
+        "id": 3,
+        "name": "গল্প",
+        "slug": "story",
+        "description": "আক্কাসের গল্পসমূহ।",
+        "icon": "Icons.import_contacts", "color": "Color(0xFFE8EAF6)"
+      },
+      {
+        "id": 4,
+        "name": "প্শিক্ষামূলক",
+        "slug": "essay",
+        "description": "আক্কাসের প্রবন্ধ ও চিন্তামূলক লেখা।",
+        "icon": "Icons.school", "color": "Color(0xFFFFF3E0)"
+        },
+      {
+        "id": 5,
+        "name": "ইসলামিক",
+        "slug": "Islamic",
+        "description": "অন্যান্য সাহিত্যকর্ম।",
+        "icon": "Icons.islamic", "color": "Color(0xFFFCE4EC)"
+      },
+      {
+        "id": 6,
+        "name": "অন্যান্য",
+        "slug": "others",
+        "description": "অন্যান্য সাহিত্যকর্ম।",
+        "icon": "Icons.child_care", "color": "Color(0xFFFCE4EC)"
+      }
+    ],
+
+    "books": [
+      {
+        "id": 1,
+        "title": "আমার প্রিয় কবিতা",
+        "author_id": 1,
+        "category_id": 1,
+        "description": "আক্কাসের নির্বাচিত কবিতার একটি সংগ্রহ।",
+        "cover": "assets/images/card1.jpg",
+        "pdf": "assets/pdfs/amar_priyo_kobita.pdf",
+        "published_date": "২০২৬",
+        "is_new": true,
+        "is_favorite": true
+      },
+      {
+        "id": 2,
+        "title": "নিরব ভালোবাসা",
+        "author_id": 1,
+        "category_id": 1,
+        "description": "ভালোবাসা ও অনুভূতিকে কেন্দ্র করে লেখা কবিতার সংগ্রহ।",
+        "cover": "assets/images/card2.jpg",
+        "pdf": "assets/pdfs/nirob_bhalobasha.pdf",
+        "published_date": "২০২৬",
+        "is_new": true,
+        "is_favorite": true
+      },
+      {
+        "id": 3,
+        "title": "জীবনের গল্প",
+        "author_id": 1,
+        "category_id": 3,
+        "description": "জীবনের বিভিন্ন ঘটনা ও অনুভূতি নিয়ে লেখা গল্প।",
+        "cover": "assets/images/card3.jpg",
+        "pdf": "assets/pdfs/jiboner_golpo.pdf",
+        "published_date": "২০২৬",
+        "is_new": true,
+        "is_favorite": true
+      },
+      {
+        "id": 4,
+        "title": "অচেনা পথ",
+        "author_id": 1,
+        "category_id": 2,
+        "description": "জীবনের অচেনা পথ ও মানুষের সম্পর্ককে ঘিরে লেখা উপন্যাস।",
+        "cover": "assets/images/card4.jpg",
+        "pdf": "assets/pdfs/ochena_poth.pdf",
+        "published_date": "২০২৫",
+        "is_new": false,
+        "is_favorite": false
+      },
+      {
+        "id": 5,
+        "title": "স্বপ্নের শহর",
+        "author_id": 1,
+        "category_id": 2,
+        "description": "স্বপ্ন, সংগ্রাম ও বাস্তব জীবনের গল্প।",
+        "cover": "assets/images/card1.jpg",
+        "pdf": "assets/pdfs/shopner_shohor.pdf",
+        "published_date": "২০২৫",
+        "is_new": false,
+        "is_favorite": true
+      },
+      {
+        "id": 6,
+        "title": "বৃষ্টির দিনে",
+        "author_id": 1,
+        "category_id": 1,
+        "description": "বৃষ্টি ও প্রকৃতিকে ঘিরে লেখা কবিতার সংগ্রহ।",
+        "cover": "assets/images/card2.jpg",
+        "pdf": "assets/pdfs/bristir_dine.pdf",
+        "published_date": "২০২৫",
+        "is_new": false,
+        "is_favorite": true
+      },
+      {
+        "id": 7,
+        "title": "মাটির মানুষ",
+        "author_id": 1,
+        "category_id": 3,
+        "description": "গ্রামবাংলার মানুষ ও জীবনকে নিয়ে লেখা গল্প।",
+        "cover": "assets/images/card3.jpg",
+        "pdf": "assets/pdfs/matir_manush.pdf",
+        "published_date": "২০২৫",
+        "is_new": false,
+        "is_favorite": false
+      },
+      {
+        "id": 8,
+        "title": "শেষ বিকেল",
+        "author_id": 1,
+        "category_id": 1,
+        "description": "জীবনের শেষ বিকেলের অনুভূতি নিয়ে লেখা কবিতা।",
+        "cover": "assets/images/card4.jpg",
+        "pdf": "assets/pdfs/shesh_bikel.pdf",
+        "published_date": "২০২৪",
+        "is_new": false,
+        "is_favorite": true
+      },
+      {
+        "id": 9,
+        "title": "নদীর ওপারে",
+        "author_id": 1,
+        "category_id": 3,
+        "description": "নদী, মানুষ ও জীবনের গল্প নিয়ে লেখা সাহিত্যকর্ম।",
+        "cover": "assets/images/card1.jpg",
+        "pdf": "assets/pdfs/nodir_opare.pdf",
+        "published_date": "২০২৪",
+        "is_new": false,
+        "is_favorite": false
+      },
+      {
+        "id": 10,
+        "title": "জীবনের আয়না",
+        "author_id": 1,
+        "category_id": 4,
+        "description": "জীবন ও সমাজ নিয়ে চিন্তামূলক লেখা।",
+        "cover": "assets/images/card2.jpg",
+        "pdf": "assets/pdfs/jiboner_ayna.pdf",
+        "published_date": "২০২৪",
+        "is_new": false,
+        "is_favorite": true
+      },
+      {
+        "id": 11,
+        "title": "হারানো দিন",
+        "author_id": 1,
+        "category_id": 1,
+        "description": "হারিয়ে যাওয়া দিন ও স্মৃতিকে ঘিরে লেখা কবিতা।",
+        "cover": "assets/images/card3.jpg",
+        "pdf": "assets/pdfs/harano_din.pdf",
+        "published_date": "২০২৩",
+        "is_new": false,
+        "is_favorite": false
+      },
+      {
+        "id": 12,
+        "title": "একটি গ্রামের গল্প",
+        "author_id": 1,
+        "category_id": 3,
+        "description": "গ্রামবাংলার জীবন ও মানুষের গল্প।",
+        "cover": "assets/images/card4.jpg",
+        "pdf": "assets/pdfs/ekti_gramer_golpo.pdf",
+        "published_date": "২০২৩",
+        "is_new": false,
+        "is_favorite": true
+      },
+      {
+        "id": 13,
+        "title": "প্রেমের কবিতা",
+        "author_id": 1,
+        "category_id": 1,
+        "description": "প্রেম ও ভালোবাসার অনুভূতি নিয়ে লেখা কবিতা।",
+        "cover": "assets/images/card1.jpg",
+        "pdf": "assets/pdfs/premer_kobita.pdf",
+        "published_date": "২০২৩",
+        "is_new": false,
+        "is_favorite": true
+      },
+      {
+        "id": 14,
+        "title": "জীবনের পথ",
+        "author_id": 1,
+        "category_id": 2,
+        "description": "জীবনের বিভিন্ন বাঁক ও মানুষের সংগ্রামের গল্প।",
+        "cover": "assets/images/card1.jpg",
+        "pdf": "assets/pdfs/jiboner_poth.pdf",
+        "published_date": "২০২৩",
+        "is_new": false,
+        "is_favorite": false
+      },
+      {
+        "id": 15,
+        "title": "সবুজ প্রকৃতি",
+        "author_id": 1,
+        "category_id": 1,
+        "description": "প্রকৃতি ও সবুজ বাংলাকে নিয়ে লেখা কবিতা।",
+        "cover": "assets/images/card2.jpg",
+        "pdf": "assets/pdfs/sobuj_prokriti.pdf",
+        "published_date": "২০২২",
+        "is_new": false,
+        "is_favorite": true
+      },
+      {
+        "id": 16,
+        "title": "অপূর্ণ গল্প",
+        "author_id": 1,
+        "category_id": 3,
+        "description": "কিছু অসমাপ্ত সম্পর্ক ও জীবনের গল্প।",
+        "cover": "assets/images/card3.jpg",
+        "pdf": "assets/pdfs/opurno_golpo.pdf",
+        "published_date": "২০২২",
+        "is_new": false,
+        "is_favorite": false
+      },
+      {
+        "id": 17,
+        "title": "মনের কথা",
+        "author_id": 1,
+        "category_id": 1,
+        "description": "মানুষের মনের অনুভূতি নিয়ে লেখা কবিতা।",
+        "cover": "assets/images/card4.jpg",
+        "pdf": "assets/pdfs/moner_kotha.pdf",
+        "published_date": "২০২২",
+        "is_new": false,
+        "is_favorite": true
+      },
+      {
+        "id": 18,
+        "title": "আলোর সন্ধানে",
+        "author_id": 1,
+        "category_id": 4,
+        "description": "জীবন, শিক্ষা ও আলোর পথে এগিয়ে যাওয়ার চিন্তামূলক লেখা।",
+        "cover": "assets/images/card1.jpg",
+        "pdf": "assets/pdfs/alor_sondhane.pdf",
+        "published_date": "২০২২",
+        "is_new": false,
+        "is_favorite": true
+      },
+      {
+        "id": 19,
+        "title": "স্মৃতির পাতা",
+        "author_id": 1,
+        "category_id": 1,
+        "description": "পুরোনো স্মৃতি ও জীবনের নানা অনুভূতি নিয়ে লেখা কবিতা।",
+        "cover": "assets/images/card2.jpg",
+        "pdf": "assets/pdfs/smritir_pata.pdf",
+        "published_date": "২০২১",
+        "is_new": false,
+        "is_favorite": false
+      },
+      {
+        "id": 20,
+        "title": "আমাদের বাংলা",
+        "author_id": 1,
+        "category_id": 4,
+        "description": "বাংলা, বাঙালি ও আমাদের সংস্কৃতি নিয়ে লেখা।",
+        "cover": "assets/images/card3.jpg",
+        "pdf": "assets/pdfs/amader_bangla.pdf",
+        "published_date": "২০২১",
+        "is_new": false,
+        "is_favorite": true
+      }
+    ],
+
+    "posts": [
+      {
+        "id": 1,
+        "author_id": 1,
+        "type": "text",
+        "title": "আজকের কিছু কথা",
+        "content": "মানুষের জীবনে কিছু পথ থাকে, যে পথে হাঁটতে হাঁটতে মানুষ নিজেকেই নতুন করে চিনতে শেখে।",
+        "image":"assets/images/author.png" ,
+        "book_id": null,
+        "created_at": "২০২৬-১০-০৬",
+        "likes": 24,
+        "comments": 4
+      },
+      {
+        "id": 2,
+        "author_id": 1,
+        "type": "image",
+        "title": "একটি বিকেলের কথা",
+        "content": "প্রকৃতির সৌন্দর্য মানুষের মনকে নতুন করে বাঁচতে শেখায়।",
+        "image": "assets/images/author1.png",
+        "book_id": null,
+        "created_at": "২০২৬-১০-০৫",
+        "likes": 42,
+        "comments": 7
+      },
+      {
+        "id": 3,
+        "author_id": 1,
+        "type": "book",
+        "title": "আমার প্রিয় কবিতা",
+        "content": "আমার কবিতার সংকলনটি এখন এই অ্যাপে পড়তে পারবেন।",
+        "image": "assets/images/author2.png",
+        "book_id": 1,
+        "created_at": "২০২৬-১০-০৩",
+        "likes": 57,
+        "comments": 9
+      },
+      {
+        "id": 4,
+        "author_id": 1,
+        "type": "text",
+        "title": "কবিতা সম্পর্কে",
+        "content": "কবিতা শুধু শব্দের সমষ্টি নয়। কবিতা মানুষের অনুভূতি, ভালোবাসা ও জীবনের গল্প।",
+        "image": "assets/images/author3.png",
+        "book_id": null,
+        "created_at": "২০২৬-১০-০১",
+        "likes": 35,
+        "comments": 5
+      },
+      {
+        "id": 5,
+        "author_id": 1,
+        "type": "image",
+        "title": "স্মৃতির কিছু মুহূর্ত",
+        "content": "কিছু মুহূর্ত সময়ের সঙ্গে হারিয়ে যায়, কিন্তু স্মৃতিতে থেকে যায়।",
+        "image": "assets/images/author4.png",
+        "book_id": null,
+        "created_at": "২০২৬-০৯-২৮",
+        "likes": 31,
+        "comments": 3
+      },
+      {
+        "id": 6,
+        "author_id": 1,
+        "type": "book",
+        "title": "জীবনের গল্প",
+        "content": "জীবনের নানা ঘটনা ও অনুভূতি নিয়ে লেখা গল্পগুলো এখন পড়তে পারবেন।",
+        "image": "assets/images/author5.png",
+        "book_id": 3,
+        "created_at": "২০২৬-০৯-২৫",
+        "likes": 48,
+        "comments": 6
+      },
+      {
+        "id": 7,
+        "author_id": 1,
+        "type": "text",
+        "title": "আজকের কিছু কথা",
+        "content": "মানুষের জীবনে কিছু পথ থাকে, যে পথে হাঁটতে হাঁটতে মানুষ নিজেকেই নতুন করে চিনতে শেখে।",
+        "image":"",
+        "book_id": null,
+        "created_at": "২০২৬-১০-০৬",
+        "likes": 24,
+        "comments": 4
+      },
+      {
+        "id": 8,
+        "author_id": 1,
+        "type": "image",
+        "title": "একটি বিকেলের কথা",
+        "content": "প্রকৃতির সৌন্দর্য মানুষের মনকে নতুন করে বাঁচতে শেখায়।",
+        "image": null,
+        "book_id": null,
+        "created_at": "২০২৬-১০-০৫",
+        "likes": 42,
+        "comments": 7
+      },
+      {
+        "id": 9,
+        "author_id": 1,
+        "type": "book",
+        "title": "আমার প্রিয় কবিতা",
+        "content": "আমার কবিতার সংকলনটি এখন এই অ্যাপে পড়তে পারবেন।",
+        "image": null,
+        "book_id": 1,
+        "created_at": "২০২৬-১০-০৩",
+        "likes": 57,
+        "comments": 9
+      },
+      {
+        "id": 10,
+        "author_id": 1,
+        "type": "text",
+        "title": "কবিতা সম্পর্কে",
+        "content": "কবিতা শুধু শব্দের সমষ্টি নয়। কবিতা মানুষের অনুভূতি, ভালোবাসা ও জীবনের গল্প।",
+        "image": "assets/images/author3.png",
+        "book_id": null,
+        "created_at": "২০২৬-১০-০১",
+        "likes": 35,
+        "comments": 5
+      },
+      {
+        "id": 11,
+        "author_id": 1,
+        "type": "image",
+        "title": "স্মৃতির কিছু মুহূর্ত",
+        "content": "কিছু মুহূর্ত সময়ের সঙ্গে হারিয়ে যায়, কিন্তু স্মৃতিতে থেকে যায়।",
+        "image": null,
+        "book_id": null,
+        "created_at": "২০২৬-০৯-২৮",
+        "likes": 31,
+        "comments": 3
+      },
+      {
+        "id": 12,
+        "author_id": 1,
+        "type": "book",
+        "title": "জীবনের গল্প",
+        "content": "জীবনের নানা ঘটনা ও অনুভূতি নিয়ে লেখা গল্পগুলো এখন পড়তে পারবেন।",
+        "image": "assets/images/author5.png",
+        "book_id": 3,
+        "created_at": "২০২৬-০৯-২৫",
+        "likes": 48,
+        "comments": 6
+      }
+    ],
+
+    "home_sections": [
+      {
+        "id": 1,
+        "title": "লেখকের পোস্ট",
+        "type": "posts",
+        "limit": 5
+      },
+      {
+        "id": 2,
+        "title": "নতুন প্রকাশনা",
+        "type": "new_books",
+        "limit": 5
+      },
+      {
+        "id": 3,
+        "title": "কবিতা",
+        "type": "category",
+        "category_id": 1,
+        "limit": 5
+      },
+      {
+        "id": 4,
+        "title": "উপন্যাস",
+        "type": "category",
+        "category_id": 2,
+        "limit": 5
+      },
+      {
+        "id": 5,
+        "title": "গল্প",
+        "type": "category",
+        "category_id": 3,
+        "limit": 5
+      }
+    ],
+
+    "navigation": [
+      {
+        "id": 1,
+        "title": "হোম",
+        "icon": "home",
+        "route": "/"
+      },
+      {
+        "id": 2,
+        "title": "সকল বই",
+        "icon": "menu_book",
+        "route": "/all-books"
+      },
+      {
+        "id": 3,
+        "title": "লেখক পরিচিতি",
+        "icon": "person",
+        "route": "/author"
+      },
+      {
+        "id": 4,
+        "title": "বইয়ের বিভাগ",
+        "icon": "category",
+        "route": "/categories"
+      },
+      {
+        "id": 5,
+        "title": "নতুন প্রকাশনা",
+        "icon": "new_releases",
+        "route": "/new-books"
+      },
+      {
+        "id": 6,
+        "title": "লেখকের পোস্ট",
+        "icon": "article",
+        "route": "/posts"
+      },
+      {
+        "id": 7,
+        "title": "অ্যাপ সম্পর্কে",
+        "icon": "info",
+        "route": "/about"
+      },
+      {
+        "id": 8,
+        "title": "যোগাযোগ",
+        "icon": "contact_mail",
+        "route": "/contact"
+      },
+      {
+        "id": 9,
+        "title": "সেটিংস",
+        "icon": "settings",
+        "route": "/settings"
+      }
+    ],
+
+    "about": {
+      "title": "Akkas Book Store সম্পর্কে",
+      "description": "Akkas Book Store একটি ব্যক্তিগত সাহিত্যভিত্তিক অ্যাপ। এখানে লেখক আক্কাসের কবিতা, গল্প, উপন্যাস, প্রবন্ধ ও অন্যান্য সাহিত্যকর্ম সংরক্ষণ করা হয়েছে।",
+      "version": "1.0.0"
+    },
+
+    "contact": {
+      "email": "",
+      "phone": "",
+      "facebook": "",
+      "youtube": "",
+      "website": ""
+    },
+
+    "settings": {
+      "language": "বাংলা",
+      "theme": "light",
+      "notifications": true
+    }
+  }
+}

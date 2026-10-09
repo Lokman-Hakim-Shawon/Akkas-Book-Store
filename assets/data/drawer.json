@@ -1,0 +1,46 @@
+
+{
+    "header": {
+      "title": "আক্কাছ বুক স্টোর",
+      "subtitle": "লেখক: আক্কাস",
+      "image": "assets/images/author.png"
+    },
+    "items": [
+      {
+        "id": 1,
+        "title": "হোম",
+        "icon": "home",
+        "route": "home"
+      },
+      {
+        "id": 2,
+        "title": "সকল বই",
+        "icon": "menu_book",
+        "route": "books"
+      },
+      {
+        "id": 3,
+        "title": "কবিতা সমূহ",
+        "icon": "auto_stories",
+        "route": "poems"
+      },
+      {
+        "id": 4,
+        "title": "লেখক পরিচিতি",
+        "icon": "person",
+        "route": "author"
+      },
+      {
+        "id": 5,
+        "title": "আমাদের সম্পর্কে",
+        "icon": "info",
+        "route": "about"
+      },
+      {
+        "id": 6,
+        "title": "যোগাযোগ",
+        "icon": "contact_mail",
+        "route": "contact"
+      }
+    ]
+  }
